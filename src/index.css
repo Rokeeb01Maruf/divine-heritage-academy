@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: newsreader;
+    src: url("/fonts/Newsreader.ttf");
+}
+
+@font-face {
+    font-family: figtree;
+    src: url("/fonts/Figtree.ttf");
+}
+
+@theme {
+    --color-primary: #002060;
+    --color-secondary: #E00000;
+    --color-tertiary: #F0C000;
+    --color-dark: #101010;
+    --color-deep-red: #BB0A0A;
+    --color-deep-blue: #0D1340;
+    --color-gray: #E8ECF7;
+    --font-primary: newsreader;
+    --font-secondary: figtree;
+};
+
