@@ -14,7 +14,7 @@ export default function Header (){
            <a href="">
             <img src="/images/logo.webp" className="w-[67.21px]" alt="divine heritage academy's logo" />
            </a>
-           <nav className={` max-[952px]:${open ? "flex" : "hidden"} max-[952px]:right-0 z-5 flex items-center max-[952px]:absolute max-[952px]:top-0 max-[952px]:w-[50%] max-[952px]:h-screen max-[952px]:bg-white max-[952px]:flex-col max-[952px]:justify-start max-[952px]:pt-20 max-[952px]:items-start px-10 gap-2.5`}>
+           <nav className={` max-[952px]:${open ? "flex" : "hidden"} max-[952px]:right-0 z-5 flex items-center max-[952px]:absolute max-[952px]:top-0 max-[952px]:w-[50%] max-[952px]:h-screen max-[952px]:bg-white max-[952px]:flex-col max-[952px]:justify-start max-[952px]:pt-20 max-[952px]:items-start px-10 max-[420px]:px-8 gap-2.5`}>
             <Link to={"/"} className={`${path === "/" && " border-b-4"} h-11.5 hover:border-b-4 border-deep-red max-[990px]:px-2.5 px-5 py-3.25 hover:text-deep-red`}>Home</Link>
             <Link to={"/about-us"} className={`${path === "/about-us" && " border-b-4"} h-11.5 hover:border-b-4 border-deep-red max-[990px]:px-2.5 px-5 py-3.25 hover:text-deep-red`}>About Us</Link>
             <Link to={"/academics"} className={`${path === "/academics" && " border-b-4"} h-11.5 hover:border-b-4 border-deep-red max-[990px]:px-2.5 px-5 py-3.25 hover:text-deep-red`}>Academics</Link>
